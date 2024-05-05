@@ -24,7 +24,7 @@ export default function Store() {
           />
         </div>
         <StoreName />
-        <div className="grid grid-cols-2 gap-2 mt-5 px-2">
+        <div className="grid grid-cols-2 gap-2 mt-5 px-2 sm:px-[5%]">
           <OfferCard offer="GET FLAT 30% OFF" code="Use code GET30" />
           <OfferCard offer="BUY 1 GET 1 OFFER" code="Use code BOGO" />
           <div className="border-custom col-span-2 ">

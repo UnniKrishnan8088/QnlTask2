@@ -6,7 +6,7 @@ import { useNavigate } from "react-router-dom";
 export default function StoreNav() {
   const navigate = useNavigate();
   return (
-    <nav className="flex justify-between py-2 px-4">
+    <nav className="flex justify-between py-2 px-4 sm:px-[5%]">
       <button
         onClick={() => navigate(-1)}
         className="w-[2.063rem] h-[2.063rem] bg-white rounded-full flex items-center justify-center"
