@@ -18,7 +18,7 @@ export default function Card({ isAdd }) {
       </div>
       <div className="mt-4">
         <h5 className="text-[1rem]">Sumac Wings</h5>
-        <p className="text-[10px]">
+        <p className="text-[10px] md:text-[12px]">
           Lipsmacking ginger and fresh green spicy marinade.
         </p>
         {isAdd ? (

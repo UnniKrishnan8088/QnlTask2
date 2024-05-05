@@ -1,5 +1,5 @@
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Pagination } from "swiper/modules";
+import { Pagination, Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
 
@@ -7,11 +7,15 @@ export default function Slider() {
   return (
     <div className="w-full">
       <Swiper
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
+        }}
         spaceBetween={20}
         pagination={{
           dynamicBullets: true,
         }}
-        modules={[Pagination]}
+        modules={[Autoplay,Pagination]}
         className=" w-full h-[10rem] sm:h-[25rem]"
       >
         <SwiperSlide>
