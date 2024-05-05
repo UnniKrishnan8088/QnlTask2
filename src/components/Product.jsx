@@ -15,21 +15,21 @@ export default function Product({ offer, reccommended }) {
           Lorem ipsum dolor lorem ipsum dolo... <br /> New Bus Stand, Kasaragod
         </p>
         <div className="w-full flex items-center gap-[.5rem] border-t border-gray-400 border-opacity-50 py-2 ">
-          <div className="flex items-center">
+          <div className="flex items-center gap-[.5px]">
             <FaStar className="text-yellow-400 text-[11px]" />
-            <p className="text-[12px] font-medium">4.5</p>
+            <p className="text-[10px] font-medium">4.5</p>
           </div>
-          <div className="flex items-center">
+          <div className="flex items-center gap-[.5px]">
             <FaRegClock className="text-[11px]" />
-            <p className="text-[12px] font-medium">45 Mins</p>
+            <p className="text-[10px] font-medium">45 Mins</p>
           </div>
-          <div className="flex items-center">
+          <div className="flex items-center gap-[.5px]">
             <IoMdCalendar className="text-[11px]" />
-            <p className="text-[12px] font-medium">250 for two</p>
+            <p className="text-[10px] font-medium">250 for two</p>
           </div>
-          <div className="flex items-center">
+          <div className="flex items-center gap-[.5px]">
             <CiMapPin className="text-[11px]" />
-            <p className="text-[12px] font-medium">5 Km</p>
+            <p className="text-[10px] font-medium">5 Km</p>
           </div>
         </div>
       </div>

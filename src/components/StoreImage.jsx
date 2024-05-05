@@ -2,7 +2,7 @@ export default function StoreImage({ offer, reccommended }) {
   return (
     <div className="w-[7.31rem] h-[5.75rem] rounded-lg relative">
       {reccommended && (
-        <div className="absolute top-1 right-[-2px] bg-[#FF4848]  px-[8px]   ">
+        <div className="absolute top-1 right-[-1px] bg-[#FF4848] px-[6px] md:right-[-2px] sm:px-[7px]  ">
           <p className="font-normal text-white text-[9px]">RECCOMMENDED</p>
         </div>
       )}

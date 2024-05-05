@@ -3,7 +3,7 @@ import { CiSearch, CiUser } from "react-icons/ci";
 
 export default function MobileTab() {
   return (
-    <div className="flex items-center justify-between fixed bottom-0 left-0 right-0 bg-white px-[1rem] py-2 shadow-custom sm:justify-evenly">
+    <div className="flex items-center justify-between fixed bottom-0 left-0 right-0 bg-white px-[1rem] py-2 shadow-custom sm:justify-evenly z-10">
       <div className="flex flex-col items-center">
         <IoLocationOutline className="w-[1.6rem] h-[2rem]" />
         <p className="text-[10px]">Near Me</p>

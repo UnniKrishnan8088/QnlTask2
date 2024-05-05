@@ -1,3 +1,5 @@
+import BrowseCategory from "../components/BrowseCategory";
+import Cart from "../components/Cart";
 import DeliveryPickup from "../components/DeliveryPickup";
 import OfferCard from "../components/OfferCard";
 import Searchbar from "../components/Searchbar";
@@ -11,7 +13,7 @@ export default function Store() {
     <div className="relative">
       <img
         src="/public/assets/store-banner.jpeg"
-        className="w-full rounded-br-[90px] rounded-bl-[90px] h-[18.5rem]"
+        className="w-full rounded-br-[90px] rounded-bl-[90px] h-[18.5rem] sm:object-cover"
         alt=""
       />
       <div className="absolute inset-0">
@@ -36,6 +38,8 @@ export default function Store() {
         </div>
         <DeliveryPickup />
         <Wings />
+        <BrowseCategory />
+        <Cart />
       </div>
     </div>
   );
