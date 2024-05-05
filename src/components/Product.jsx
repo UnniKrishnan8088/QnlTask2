@@ -7,7 +7,7 @@ import { useNavigate } from "react-router-dom";
 export default function Product({ offer, reccommended }) {
   const navigate = useNavigate();
   return (
-    <div className="flex gap-[1rem] w-full " onClick={() => navigate("/store")}>
+    <div className="flex gap-[1rem] w-full cursor-pointer" onClick={() => navigate("/store")}>
       <StoreImage offer={offer} reccommended={reccommended} />
       <div className="w-full">
         <h3 className="text-[0.875rem] font-semibold">Viceroy Restaurant</h3>
