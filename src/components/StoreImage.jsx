@@ -1,6 +1,11 @@
-export default function StoreImage({ offer }) {
+export default function StoreImage({ offer, reccommended }) {
   return (
-    <div className="w-[6.31rem] h-[5.75rem] rounded-lg relative">
+    <div className="w-[7.31rem] h-[5.75rem] rounded-lg relative">
+      {reccommended && (
+        <div className="absolute top-1 right-[-2px] bg-[#FF4848]  px-[8px]   ">
+          <p className="font-normal text-white text-[9px]">RECCOMMENDED</p>
+        </div>
+      )}
       <img
         className="w-full h-full object-cover rounded-lg"
         src="/public/assets/productImg.png"
