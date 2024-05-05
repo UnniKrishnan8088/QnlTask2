@@ -11,3 +11,7 @@
   background: white !important;
   border: 2px solid red;
 }
+
+.border-left {
+  border-right: 1px solid red;
+}
